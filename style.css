@@ -1,0 +1,130 @@
+.body {
+  font-family: "M PLUS 1", sans-serif;
+}
+
+.header {
+  min-height: 50px;
+  max-height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 48px;
+  padding: 25px;
+}
+
+.title {
+  padding-top: 10px;
+  color: #e8c23e;
+}
+.blue {
+  color: #3e45e8;
+}
+.background {
+  background-image: url(/Kamenec.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 803px;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+.content {
+  box-sizing: border-box;
+  padding-top: 185px;
+  padding-left: 118px;
+  width: 70%;
+  font-size: 48px;
+  color: whitesmoke;
+  background-image: url(./img/flag.png);
+  background-repeat: no-repeat;
+}
+.places {
+  font-family: "M Plus 1";
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 80px;
+  margin-top: 72px;
+  text-decoration: underline;
+  text-decoration-color: #3e45e8;
+}
+
+.parent {
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  color: #1e8df2;
+  font-weight: 700;
+  height: 100%;
+}
+.victory {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 63px;
+  margin-left: 430px;
+  margin-top: 74px;
+}
+.line {
+  border-bottom: solid 5px;
+  color: #3e45e8;
+  width: 406px;
+  margin-left: 513px;
+  margin-top: 21px;
+}
+.map {
+  position: absolute;
+  left: 294px;
+  top: 1786px;
+  height: 537px;
+  width: 812px;
+}
+.support {
+  width: 591px;
+  height: 121px;
+  background: #2a61f0;
+  position: absolute;
+  left: 418px;
+  top: 2364px;
+  border-radius: 10px;
+}
+.care {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "M PLUS 1", sans-serif;
+  padding-left: 93px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+.footer {
+  width: 1440px;
+  height: 320px;
+  background-color: #2f4a4b;
+  position: absolute;
+  left: 0px;
+  top: 2506px;
+}
+.title2 {
+  font-family: "M PLUS 1";
+  font-size: 48px;
+  color: #3e45e8;
+  font-weight: 400;
+  padding-left: 506px;
+}
+.blue2 {
+  color: #dfe31e;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.mail {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  top: 200px;
+  right: 511px;
+  line-height: 45px;
+}
+.mail:hover {
+  color: crimson;
+}
